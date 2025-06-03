@@ -8,8 +8,9 @@ type Update struct {
 }
 
 type Message struct {
-	Text string `json:"text"`
-	Chat struct {
+	MessageID int64  `json:"message_id"`
+	Text      string `json:"text"`
+	Chat      struct {
 		ID int64 `json:"id"`
 	} `json:"chat"`
 }
@@ -19,7 +20,8 @@ type CallbackQuery struct {
 		Username string `json:"username"`
 	} `json:"from"`
 	Message struct {
-		Chat struct {
+		MessageID int64 `json:"message_id"`
+		Chat      struct {
 			ID int64 `json:"id"`
 		} `json:"chat"`
 		Text string `json:"text"`

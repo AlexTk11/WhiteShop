@@ -24,10 +24,8 @@
 
 ## 🛠 Используемые технологии
 
-- [Go](https://golang.org/) — основной язык разработки  
-- [GORM](https://gorm.io/) — ORM для взаимодействия с PostgreSQL  
-- [PostgreSQL](https://www.postgresql.org/) — база данных  
-- [Docker](https://www.docker.com/) + [Docker Compose](https://docs.docker.com/compose/) — контейнеризация  
+- Go — основной язык разработки  
+- GORM — ORM для взаимодействия с PostgreSQL  
+- PostgreSQL — база данных  
+- Docker — контейнеризация  
 - Telegram Bot API    
-
-
